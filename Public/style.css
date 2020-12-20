@@ -1,0 +1,189 @@
+body{
+  margin:0;
+  background-color:#FAE3D9;
+  text-align: center;
+  font-family: Merriweather;
+}
+#name{
+  font-family: Sacramento;
+  font-size:450%;
+}
+h1{
+  color:#61c0bf;
+  text-align: left;
+  margin: 0;
+  font-size: 3.8rem;
+
+}
+h2{
+  color:#bbded6;
+  font-size: 3rem;
+  margin: 0;
+
+}
+h3,h4,h5{
+  color:#bbded6;
+  margin: 0;
+  padding: 0;
+
+
+}
+.middle{
+  height: 490px;
+  margin-top: 10px;
+}
+.content1{
+  position: absolute;
+  margin: 0;
+  margin-top: 50px;
+  width: 430px;
+  margin-left: 400px;
+  border-right: solid #ffb6b9 2px;
+}
+
+.content2{
+  position: relative;
+  margin: 0;
+  width: 500px;
+  font-size: 1.4rem;
+  margin-left: 850px;
+  margin-top: 100px;
+}
+
+#top{
+  position:relative;
+  font-size: 1.8rem;
+  font-family:cursive,helvetica,arial;
+  background-color:#ffb6b9;
+  color:#61c0bf;
+  padding:20px 0 0 10px;
+}
+
+#cityInput{
+  height: 35px;
+  border-radius: 20px;
+  border: solid #61C0BF 1px;
+  width: 300px;
+}
+
+img{
+  display:inline-block;
+  width:4.5rem;
+  height:4.5rem;
+  margin: 0;
+}
+.me{
+  position: relative;
+  width:15%;
+  height:15%;
+  border-radius: 100%;
+}
+.skill{
+  width: 50%;
+  margin:auto;
+  margin-bottom:100px;
+  text-align: left;
+  line-height: 2;
+
+}
+
+#logo{
+  width: 20%;
+  height: 20%;
+}
+#mountain{
+  width:40%;
+  height:40%;
+  margin-bottom: 0;
+}
+#cloudtop{
+  position: absolute;
+  left:400px;
+  top:280px;
+
+}
+#cloudbottom{
+  position: absolute;
+  right:370px;
+  top:40px;
+
+
+}
+hr{
+  border-color:white;
+  border-style:none;
+  border-top-style: dotted;
+  width: 200px;
+  opacity:0.5;
+  border-width: 5px;
+}
+.BUTTON{
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   margin-left: 30px
+   margin-bottom: 20px;
+   border-radius: 20px;
+   height: 2px;
+   line-height: 2px;
+   color: #FAE3D9;
+   font-family: Open Sans;
+   width: 125px;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 20px;
+   background-color: #BBDED6;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #61C0BF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON:hover {
+   background: #61C0BF;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.bottom{
+  background-color:#ffb6b9;
+  height:150px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  text-align:center;
+  line-height:50px;
+  padding-top:35px;
+
+
+}
+li{
+  display: inline;
+  padding:10px;
+
+}
+a{
+  text-decoration: none;
+  color:#BBDED6;
+
+}
+a:hover{
+  color:#61C0BF;
+}
+.end{
+  margin: 0;
+  font-size:1.1rem;
+  width:300px;
+  text-align: left;
+  margin: auto;
+  padding-top: 15px;
+  color: white;
+  opacity: 0.7;
+}

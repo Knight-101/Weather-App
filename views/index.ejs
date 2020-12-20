@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <div id="top">
+      <h1>Weather App</h1>
+
+    </div>
+    <div class="middle">
+      <h2 style="color:red; opacity:0.5;font-size:2rem;"><%=time%></h2>
+      <h2 style="font-size:2rem;"><%=day%></h2>
+      <div class="content1">
+        <h1><%=city%>, <%=country%></h1>
+        <img style="float:left;" src= <%=img%>>
+        <h1 style="margin:2px; font-size:3.2rem;"><%=temp%><sup>o</sup>C</h1>
+        <h5 style="text-align:left;font-size:1rem;">Feels like <%=feels%><sup>o</sup>C . <%=description%>.</h5>
+      </div>
+      <div class="content2">
+        <h3>Humidity: <%=humid%>%,  Pressure: <%=pres%>hPa</h3><br>
+        <h3>Visibility: <%=visi%>m, Wind Speed: <%=windSpeed%>m/s </h3>
+      </div>
+
+
+
+      </div>
+    </div>
+    <div class="bottom">
+      <p class="end">Email: sanskarmohapatra@gmail.com <br>
+        Contact No.: ********* <br>
+        @2020 Sanskar</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
